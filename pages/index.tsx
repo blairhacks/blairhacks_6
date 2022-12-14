@@ -55,8 +55,8 @@ export default function Home() {
           <div className="py-12 text-lg font-thin">
             <p>
               BlairHacks_6 is a 24-hour hackathon <span className="text-theme-onBackground/50">(social coding event)</span> hosted by Montgomery Blair HS students in Silver Spring, MD.
-              This year, BlairHacks is happening in-person for the first time since 2020, and we're going all-in with fun activities, huge prizes, and tons of fun.
-              Join us for a weekend, where we'll discover the joy of coding, build and showcase cool projects, and make new friends!
+              This year, BlairHacks is happening in-person for the first time since 2020, and we&apos;re going all-in with fun activities, huge prizes, and tons of fun.
+              Join us for a weekend, where we&apos;ll discover the joy of coding, build and showcase cool projects, and make new friends!
             </p>
           </div>
         </div>
