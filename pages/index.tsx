@@ -38,12 +38,12 @@ export default function Home() {
 
       <div className="flex gap-16 mt-2">
         <div className="flex-1">
-          <div className="aspect-video flex gap-8 snap-x snap-mandatory overflow-x-auto rounded-xl hide-scroll">
+          <div className="aspect-video flex gap-8 snap-x snap-mandatory overflow-x-auto overflow-y-hidden rounded-xl hide-scroll">
             <div className="h-full w-full basis-full grow-0 shrink-0 snap-center bg-theme-surface rounded-xl"></div>
             <div className="h-full w-full basis-full grow-0 shrink-0 snap-center bg-theme-surface rounded-xl"></div>
           </div>
 
-          <div className="container max-w-2xl h-16 flex gap-4 overflow-x-auto hide-scroll mt-4">
+          <div className="container max-w-2xl h-16 flex gap-4 overflow-x-auto overflow-y-hidden hide-scroll mt-4">
             <div className="flex-none aspect-video bg-theme-surface rounded-lg"></div>
             <div className="flex-none aspect-video bg-theme-surface rounded-lg"></div>
             <div className="flex-none aspect-video bg-theme-surface rounded-lg"></div>
