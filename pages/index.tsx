@@ -128,14 +128,14 @@ export default function Home() {
           <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
             <h3 className="text-lg leading-6">Am I elligible to participate?</h3>
             <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              If 18 and under, and a high school student, yes!! If you&nbsp;re younger, shoot us an email at <a href="mailto:team@blairhacks.com" className="underline underline-offset-1">team@blairhacks.com</a>.
+              If 18 and under, and a high school student, yes!! If you&apos;re younger, shoot us an email at <a href="mailto:team@blairhacks.com" className="underline underline-offset-1">team@blairhacks.com</a>.
             </p>
           </div>
 
           <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
             <h3 className="text-lg leading-6">Does it cost anything?</h3>
             <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              Nope! Everything is free. We&nbsp;ll provide meals, snacks, and beverages on-site, as well as swag, prizes, and fun activities.
+              Nope! Everything is free. We&apos;ll provide meals, snacks, and beverages on-site, as well as swag, prizes, and fun activities.
             </p>
           </div>
 
@@ -155,16 +155,16 @@ export default function Home() {
           </div>
 
           <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
-            <h3 className="text-lg leading-6">I&nbsp;m new to coding. Can I join?</h3>
+            <h3 className="text-lg leading-6">I&apos;m new to coding. Can I join?</h3>
             <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              Yes!! The focus of BH6 is to learn new things and have fun. We&nbsp;ll have mentors and workshops covering a bunch of fascinating topics to help you get started.
+              Yes!! The focus of BH6 is to learn new things and have fun. We&apos;ll have mentors and workshops covering a bunch of fascinating topics to help you get started.
             </p>
           </div>
 
           <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
             <h3 className="text-lg leading-6">When and where will BH6 happen?</h3>
             <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              February 17th-18th, 2023 at Montgomery Blair High School. We&nbsp;ll send out more details as the event gets closer!
+              February 17th-18th, 2023 at Montgomery Blair High School. We&apos;ll send out more details as the event gets closer!
             </p>
           </div>
 
