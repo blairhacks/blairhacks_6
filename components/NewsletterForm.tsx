@@ -61,7 +61,9 @@ export default function NewsletterForm({ open, setOpen }: { open: boolean; setOp
           >
             <div className="bg-theme-surface/[0.97] backdrop-blur-sm drop-shadow-md rounded-xl overflow-hidden">
               <div className="px-7 py-6 flex items-center gap-6 border-b-2 border-theme-onSurface/10">
-                <MdOutlineMarkunreadMailbox size={56}/>
+                <div>
+                  <MdOutlineMarkunreadMailbox size={56}/>
+                </div>
                 <div>
                   <h2 className="text-xl font-medium">
                     Join the BlairHacks newsletter

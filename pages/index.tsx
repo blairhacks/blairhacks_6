@@ -16,8 +16,8 @@ export default function Home() {
 
   return <>
     <Head>
-      <title>BlairHacks_6</title>
-      {/* <meta name="description" content="by @linkai101 on github" /> */}
+      <title>BlairHacks_6: February 17-18, 2023</title>
+      <meta name="description" content="BlairHacks_6 is a 24-hour hackathon hosted by Montgomery Blair HS students in Silver Spring, MD. Join us for a weekend, where we'll discover the joy of coding, build and showcase cool projects, and make new friends!"/>
     </Head>
 
     <Navbar/>
