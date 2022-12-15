@@ -13,20 +13,17 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Rubik", "sans-serif"],
-        vinyl: ["Rubik Vinyl", "Rubik", "sans-serif"],
         glitch: ["Rubik Glitch", "Rubik", "sans-serif"],
       },
       colors: {
         theme: {
-          primary: "#D52941",
-          primaryVariant: "#F7B2AD",
+          primary: "#DC3C4D",
           secondary: "#E7D27C",
-          // secondaryVariant: "",
-          background: "#191919",
+          background: "#121212",
           surface: "#262626",
           // error: "",
           onPrimary: "#EAFDF8",
-          onSecondary: "#191919",
+          onSecondary: "#121212",
           onBackground: "#EAFDF8",
           onSurface: "#EAFDF8",
           // onError: ""
