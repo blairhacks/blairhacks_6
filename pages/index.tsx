@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 
+import Navbar from '../components/Navbar';
 import Gallery from '../components/Gallery';
 import NewsletterForm from '../components/NewsletterForm';
 import Footer from '../components/Footer';
@@ -19,14 +20,7 @@ export default function Home() {
       {/* <meta name="description" content="by @linkai101 on github" /> */}
     </Head>
 
-    <div className="bg-theme-surface text-theme-onSurface sticky top-0 border-b-8 border-theme-background z-40">
-      <nav className="px-6 py-3">
-        <img
-          src="/assets/logo_mono.png"
-          className="w-8 aspect-square"
-        />
-      </nav>
-    </div>
+    <Navbar/>
 
     <main className="px-8 py-10 container max-w-6xl flex flex-col gap-4">
       <section>
