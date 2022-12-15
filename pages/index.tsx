@@ -222,12 +222,14 @@ export default function Home() {
           />
         </div>
         <p className="text-lg font-thin mt-6">
-          Want to sponsor this and future BlairHacks events?{" "}
+          Want to sponsor this event?{" "}
           <a
             className="text-theme-secondary font-medium underline cursor-pointer"
-            href="mailto:team@blairhacks.com"
+            href="/assets/BlairHacks_6 Sponsorship Package.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Get in touch →
+            See our sponsorship package →
           </a>
         </p>
         <p className="font-thin">
