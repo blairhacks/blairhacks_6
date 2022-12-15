@@ -67,7 +67,7 @@ export default function NewsletterForm({ open, setOpen }: { open: boolean; setOp
                     Join the BlairHacks newsletter
                   </h2>
                   <p className="font-thin leading-5 mt-1.5">
-                    We'll send the latest updates on BlairHacks, including new events, opportunities, and more!
+                    We&nbsp;ll send the latest updates on BlairHacks, including new events, opportunities, and more!
                   </p>
                 </div>
               </div>
