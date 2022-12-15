@@ -2,11 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  loader: "imgix",
-  path: "/",
+  images: {
+    unoptimized: true
+  },
   experimental: {
     appDir: false
   }
 }
-
 module.exports = nextConfig
