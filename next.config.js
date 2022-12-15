@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  loader: "custom",
+  loader: "imgix",
+  path: "/",
   experimental: {
     appDir: false
   }
