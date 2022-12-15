@@ -20,7 +20,7 @@ module.exports = {
         theme: {
           primary: "#D52941",
           primaryVariant: "#F7B2AD",
-          secondary: "#EFF0D1",
+          secondary: "#E7D27C",
           // secondaryVariant: "",
           background: "#191919",
           surface: "#262626",
