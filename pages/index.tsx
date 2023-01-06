@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import Navbar from '../components/Navbar';
 import Gallery from '../components/Gallery';
-import NewsletterForm from '../components/NewsletterForm';
+// import NewsletterForm from '../components/NewsletterForm';
 import Footer from '../components/Footer';
 
 import { BsPeopleFill } from "react-icons/bs";
@@ -12,7 +12,7 @@ import { MdMoneyOff, MdOutlineMarkunreadMailbox } from "react-icons/md";
 import { AiOutlineSmile } from "react-icons/ai";
 
 export default function Home() {
-  const [formOpen, setFormOpen] = useState(false);
+  // const [formOpen, setFormOpen] = useState(false);
 
   return <>
     <Head>
@@ -52,24 +52,26 @@ export default function Home() {
             </div>
 
             <p className="text-sm font-thin mt-8">
-              Registrations open in January 2023
+              Spots are limited, register now!
             </p>
 
-            {/* <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase rounded-lg mt-2">
-              Register
-            </button> */}
-            <button
+            <a href="https://form.typeform.com/to/KAC7oi4w" target="_blank" rel="noreferrer noopener">
+              <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg mt-2">
+                Register
+              </button>
+            </a>
+            {/* <button
               className="w-full px-4 py-2.5 border flex items-center justify-center gap-2 border-theme-onSurface hover:bg-theme-onSurface/5 text-sm font-semibold uppercase rounded-lg transition ease-in-out duration-400 mt-2.5"
               onClick={() => setFormOpen(true)}
             >
               <MdOutlineMarkunreadMailbox size={16}/>
               <span>Remind me</span>
-            </button>
+            </button> */}
 
-            <NewsletterForm
+            {/* <NewsletterForm
               open={formOpen}
               setOpen={setFormOpen}
-            />
+            /> */}
 
             <ul className="px-4 flex flex-col gap-4 font-thin mt-8">
               <li className="flex justify-start items-center min-h-[2rem] gap-5 leading-5">
