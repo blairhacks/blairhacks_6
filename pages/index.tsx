@@ -16,20 +16,31 @@ export default function Home() {
 
   return <>
     <Head>
-      <title>BlairHacks_6: February 17-18, 2023</title>
+      <title>BlairHacks_6: February 18-19, 2023</title>
       <meta name="description" content="BlairHacks_6 is a 24-hour hackathon hosted by Montgomery Blair HS students in Silver Spring, MD. Join us for a weekend, where we'll discover the joy of coding, build and showcase cool projects, and make new friends!"/>
     </Head>
 
     <Navbar/>
 
     <main className="px-8 py-10 container max-w-6xl flex flex-col gap-4">
-      <section>
-        <h1 className="text-4xl font-bold">
-          BlairHacks_6
-        </h1>
-        <p className="pl-[1px] text-lg font-thin">
-          February 17-18, 2023 <span className="text-theme-secondary font-medium underline underline-offset-1">@ Montgomery Blair HS</span>
-        </p>
+      <section className="flex flex-col md:flex-row gap-6 md:gap-20">
+        <div>
+          <h1 className="text-4xl font-bold">
+            BlairHacks_6
+          </h1>
+          <p className="pl-[1px] text-lg font-thin">
+            February 18-19, 2023 <span className="text-theme-secondary font-medium underline underline-offset-1">@ Montgomery Blair HS</span>
+          </p>
+        </div>
+        <div className="px-4 py-2.5 flex-1 border-2 border-theme-secondary/50 rounded-lg">
+          <p className="text-theme-secondary font-medium">
+            Event updates [1.22.2023]
+          </p>
+          <p className="text-sm text-theme-secondary font-thin leading-4 mt-0.5">
+            Our dates have changed to February 18-19, 2023 at 10AM-6PM (Sat) and 10AM-6PM (Sun).
+            This will not be an overnight event. Registration is temporarily disabled — check back soon!
+          </p>
+        </div>
       </section>
 
       <section className="flex flex-col-reverse md:flex-row gap-16 mt-2">
@@ -51,15 +62,24 @@ export default function Home() {
               {/* <p className="text-7xl font-vinyl">6</p> */}
             </div>
 
-            <p className="text-sm font-thin mt-8">
+            {/* <p className="text-sm font-thin mt-8">
               Spots are limited, register now!
+            </p> */}
+
+            <p className="text-sm font-thin mt-8">
+              Registration will be back soon. See <u>event updates</u> above for more info.
             </p>
 
-            <a href="https://form.typeform.com/to/KAC7oi4w" target="_blank" rel="noreferrer noopener">
+            {/* <a href="https://form.typeform.com/to/KAC7oi4w" target="_blank" rel="noreferrer noopener">
               <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg mt-2">
                 Register
               </button>
-            </a>
+            </a> */}
+
+            <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg opacity-50 cursor-not-allowed mt-2" disabled>
+              Register
+            </button>
+
             {/* <button
               className="w-full px-4 py-2.5 border flex items-center justify-center gap-2 border-theme-onSurface hover:bg-theme-onSurface/5 text-sm font-semibold uppercase rounded-lg transition ease-in-out duration-400 mt-2.5"
               onClick={() => setFormOpen(true)}
@@ -189,12 +209,14 @@ export default function Home() {
         </p>
 
         <div className="flex justify-center sm:justify-start items-center flex-wrap gap-6 sm:gap-12 mt-6">
-          <Image
-            src="/assets/sponsors/magnet_foundation.png"
-            alt="Magnet Foundation"
-            width={150}
-            height={150}
-          />
+          <a href="https://www.mbhsmagnet.org" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/magnet_foundation.png"
+              alt="Magnet Foundation"
+              width={150}
+              height={150}
+            />
+          </a>
 
           {/* <Image
             src="/assets/sponsors/leangap.svg"
@@ -203,19 +225,60 @@ export default function Home() {
             height={150}
           /> */}
 
-          <Image
-            src="/assets/sponsors/stickergiant.png"
-            alt="StickerGiant"
-            width={150}
-            height={150}
-          />
+          <a href="https://www.subway.com" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/subway.svg"
+              alt="Subway"
+              width={200}
+              height={100}
+            />
+          </a>
 
-          <Image
-            src="/assets/sponsors/taskade.png"
-            alt="Taskade"
-            width={200}
-            height={150}
-          />
+          <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/stickergiant.png"
+              alt="StickerGiant"
+              width={150}
+              height={150}
+            />
+          </a>
+          
+          <a href="https://artofproblemsolving.com" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/aops.svg"
+              alt="AoPS"
+              width={200}
+              height={150}
+            />
+          </a>
+
+          <a href="https://www.taskade.com" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/taskade.png"
+              alt="Taskade"
+              width={150}
+              height={150}
+            />
+          </a>
+          
+          <a href="https://www.echo3d.com" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/echo3D.png"
+              alt="echo3D"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
+          </a>
+          
+          <a href="https://wolfram.com" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/wolfram.png"
+              alt="Wolfram"
+              width={150}
+              height={150}
+            />
+          </a>
         </div>
         <p className="text-lg font-thin mt-6">
           Want to sponsor this event?{" "}
