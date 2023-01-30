@@ -218,19 +218,21 @@ export default function Home() {
             />
           </a>
 
-          {/* <Image
-            src="/assets/sponsors/leangap.svg"
-            alt="Leangap"
-            width={150}
-            height={150}
-          /> */}
-
           <a href="https://www.subway.com" target="_blank" rel="noreferrer noopener">
             <Image
               src="/assets/sponsors/subway.svg"
               alt="Subway"
               width={200}
               height={100}
+            />
+          </a>
+
+          <a href="https://lionsolutions.com/" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/lion.png"
+              alt="Lion Solutions"
+              width={150}
+              height={150}
             />
           </a>
 
@@ -241,6 +243,15 @@ export default function Home() {
               width={150}
               height={150}
             />
+          </a>
+
+          <a href="https://www.leangap.org" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/leangap.svg"
+              alt="Leangap"
+              width={150}
+              height={150}
+              />
           </a>
           
           <a href="https://artofproblemsolving.com" target="_blank" rel="noreferrer noopener">
