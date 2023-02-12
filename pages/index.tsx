@@ -132,27 +132,6 @@ export default function Home() {
                 ... and more!!
               </p>
             </div>
-
-            {/* <div className="relative px-4 py-2 border-b-[3px] border-fuchsia-200/75 bg-gradient-to-t from-fuchsia-200/5 via-transparent to-transparent mt-4">
-              <h3 className="font-medium text-sm font-monoone absolute -bottom-3">
-                <span className="px-1 bg-theme-background">Prizes 🏆</span>
-              </h3>
-
-              <div className="flex flex-wrap items-center gap-6 mt-2">
-                <img src="/assets/prizes/gamingheadphones.png" className="h-12"/>
-                <img src="/assets/prizes/bluetoothspeaker.png" className="h-12"/>
-                <img src="/assets/prizes/echodot.png" className="h-12"/>
-                <img src="/assets/prizes/airtags.png" className="h-12"/>
-                <img src="/assets/prizes/wirelessearbuds.png" className="h-12"/>
-                <img src="/assets/prizes/gamingmouse.png" className="h-12"/>
-                <img src="/assets/prizes/bluesnowball.png" className="h-12"/>
-                <img src="/assets/prizes/wireartkit.png" className="h-12"/>
-              </div>
-
-              <p className="text-sm text-right font-thin italic mt-1">
-                ... and more!!
-              </p>
-            </div> */}
           </div>
 
           <div>
@@ -221,30 +200,34 @@ export default function Home() {
         <div className="-mt-24 md:w-72">
           <div className="pt-24 sticky top-0">
             <div className="px-4 py-2.5 flex-1 border-2 border-theme-secondary/50 rounded-lg">
-            <p className="text-theme-secondary font-medium">
-              Event updates [2.12.2023]
-            </p>
-            <p className="text-sm text-theme-secondary font-thin leading-4 mt-0.5">
-              We apologize for the confusion in the past few weeks. Our dates have changed to March 25-26, 2023, and registration is now reopened! See updated event details on the left.
-            </p>
-            <p className="text-sm text-theme-secondary font-thin leading-4 mt-3">
-              <span className="font-bold">Note:</span> If you&apos;ve registered for the event before our date changes, please re-register.
-            </p>
-          </div>
+              <p className="text-theme-secondary font-medium">
+                Event updates [2.12.2023]
+              </p>
+              <p className="text-sm text-theme-secondary font-thin leading-4 mt-0.5">
+                We apologize for the confusion in the past few weeks. Our dates have changed to March 25-26, 2023, and registration will reopen soon. See updated event details on the left.
+              </p>
+              <p className="text-sm text-theme-secondary font-thin leading-4 mt-3">
+                <span className="font-bold">Note:</span> If you&apos;ve registered for the event before our date changes, you will have to re-register.
+              </p>
+            </div>
 
             <p className="text-sm font-thin mt-6">
-              Spots are limited, register now!
+              Registration will re-open soon.
             </p>
 
-            <a href="https://form.typeform.com/to/bxlqbYuD" target="_blank" rel="noreferrer noopener">
+            {/* <p className="text-sm font-thin mt-6">
+              Spots are limited, register now!
+            </p> */}
+
+            {/* <a href="https://form.typeform.com/to/bxlqbYuD" target="_blank" rel="noreferrer noopener">
               <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg mt-2">
                 Register (~2 mins)
               </button>
-            </a>
+            </a> */}
 
-            {/* <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg opacity-50 cursor-not-allowed mt-2" disabled>
+            <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg opacity-50 cursor-not-allowed mt-2" disabled>
               Register
-            </button> */}
+            </button>
 
             {/* <button
               className="w-full px-4 py-2.5 border flex items-center justify-center gap-2 border-theme-onSurface hover:bg-theme-onSurface/5 text-sm font-semibold uppercase rounded-lg transition ease-in-out duration-400 mt-2.5"
