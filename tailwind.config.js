@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         sans: ["Rubik", "sans-serif"],
         glitch: ["Rubik Glitch", "Rubik", "sans-serif"],
+        monoone: ["Rubik Mono One", "Rubik", "sans-serif"],
       },
       colors: {
         theme: {
