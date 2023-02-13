@@ -29,7 +29,8 @@ export default function Home() {
             BlairHacks_6
           </h1>
           <p className="pl-[1px] text-lg font-thin">
-            March 25-26, 2023 <span className="text-theme-secondary font-medium underline underline-offset-1">@ Montgomery College: Silver Spring/Takoma Park</span>
+            {/* March 25-26, 2023 <span className="text-theme-secondary font-medium underline underline-offset-1">@ Montgomery College: Silver Spring/Takoma Park</span> */}
+            March 25-26, 2023 <span className="text-theme-secondary font-medium underline-offset-1">@ [Venue TBA]</span>
           </p>
         </div>
         {/* <div className="px-4 py-2.5 flex-1 border-2 border-theme-secondary/50 rounded-lg">
@@ -88,7 +89,8 @@ export default function Home() {
                 </h3>
 
                 <p className="text-sm font-thin italic mt-1">
-                  Sunday 3/26, 10AM-6PM @ Montgomery College Takoma Park/Silver Spring Campus
+                  Sunday 3/26, 10AM-6PM @ [Venue TBA]
+                  {/* Sunday 3/26, 10AM-6PM @ Montgomery College Takoma Park/Silver Spring Campus */}
                 </p>
 
                 <ul className="pl-2 list-disc list-inside text-sm mt-2">
@@ -204,7 +206,7 @@ export default function Home() {
                 Event updates [2.12.2023]
               </p>
               <p className="text-sm text-theme-secondary font-thin leading-4 mt-0.5">
-                We apologize for the confusion in the past few weeks. Our dates have changed to March 25-26, 2023, and registration will reopen soon. See updated event details on the left.
+                We apologize for the confusion in the past few weeks. Our dates have changed to March 25-26, 2023, and registration will re-open soon. See updated event details on the left.
               </p>
               <p className="text-sm text-theme-secondary font-thin leading-4 mt-3">
                 <span className="font-bold">Note:</span> If you&apos;ve registered for the event before our date changes, you will have to re-register.
@@ -299,7 +301,8 @@ export default function Home() {
           <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
             <h3 className="text-lg leading-6">When and where will BH6 happen?</h3>
             <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-            Day 1 will happen virtually though Discord and Zoom on March 25th. Day 2 will be in-person at Montgomery College Silver Spring/Takoma Park Campus on March 26th.
+            {/* Day 1 will happen virtually though Discord and Zoom on March 25th. Day 2 will be in-person at Montgomery College Silver Spring/Takoma Park Campus on March 26th. */}
+            Day 1 will happen virtually though Discord and Zoom on March 25th. Day 2 will be in-person at [Venue TBA] on March 26th.
             </p>
           </div>
 
