@@ -16,8 +16,8 @@ export default function Home() {
 
   return <>
     <Head>
-      <title>BlairHacks_6: February 18-19, 2023</title>
-      <meta name="description" content="BlairHacks_6 is a 24-hour hackathon hosted by Montgomery Blair HS students in Silver Spring, MD. Join us for a weekend, where we'll discover the joy of coding, build and showcase cool projects, and make new friends!"/>
+      <title>BlairHacks_6: March 25-26, 2023</title>
+      <meta name="description" content="BlairHacks_6 is a hackathon hosted by high school students in Silver Spring, MD. Join us for a weekend, where we&apos;ll discover the joy of coding, build and showcase cool projects, and make new friends!"/>
     </Head>
 
     <Navbar/>
@@ -29,10 +29,11 @@ export default function Home() {
             BlairHacks_6
           </h1>
           <p className="pl-[1px] text-lg font-thin">
-            February 18-19, 2023 <span className="text-theme-secondary font-medium underline underline-offset-1">@ Montgomery Blair HS</span>
+            {/* March 25-26, 2023 <span className="text-theme-secondary font-medium underline underline-offset-1">@ Montgomery College: Silver Spring/Takoma Park</span> */}
+            March 25-26, 2023 <span className="text-theme-secondary font-medium underline-offset-1">@ [Venue TBA]</span>
           </p>
         </div>
-        <div className="px-4 py-2.5 flex-1 border-2 border-theme-secondary/50 rounded-lg">
+        {/* <div className="px-4 py-2.5 flex-1 border-2 border-theme-secondary/50 rounded-lg">
           <p className="text-theme-secondary font-medium">
             Event updates [1.22.2023]
           </p>
@@ -40,39 +41,189 @@ export default function Home() {
             Our dates have changed to February 18-19, 2023 at 10AM-6PM (Sat) and 10AM-6PM (Sun).
             This will not be an overnight event. Registration is temporarily disabled — check back soon!
           </p>
-        </div>
+        </div> */}
       </section>
 
       <section className="flex flex-col-reverse md:flex-row gap-16 mt-2">
-        <div className="flex-1">
+        <div className="flex-1 flex flex-col gap-12">
           <Gallery/>
 
-          <div className="py-12 text-lg font-thin">
+          <div className="text-lg font-thin">
             <p>
-              BlairHacks_6 is a 24-hour hackathon <span className="text-theme-onBackground/50">(social coding event)</span> hosted by Montgomery Blair HS students in Silver Spring, MD.
-              This year, BlairHacks is happening in-person for the first time since 2020, and we&apos;re going all-in with hands-on activities, huge prizes, and tons of fun.
+              BlairHacks is an annual hackathon <span className="text-theme-onBackground/50">(collaborative coding event)</span> hosted by high school students in Silver Spring, MD.
+              This year, BlairHacks_6 is happening in March, and we&apos;re going all in with hands-on activities, huge prizes, and tons of fun.
               Join us for a weekend, where we&apos;ll discover the joy of coding, build and showcase cool projects, and make new friends!
             </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-medium">
+              Overview
+            </h2>
+
+            <p className="font-thin mt-2">
+              BlairHacks_6 will take place in 2 days — virtually on Saturday and in-person on Sunday.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+              <div className="px-4 py-4 border-[3px] border-theme-secondary/75 rounded-xl">
+                <h3 className="font-bold font-monoone -mt-7">
+                  <span className="px-1 bg-theme-background">Day 1</span>
+                </h3>
+
+                <p className="text-sm font-thin italic mt-1">
+                  Saturday 3/25, online over Discord+Zoom
+                </p>
+
+                <ul className="pl-2 list-disc list-inside text-sm mt-2">
+                  <li>Form a team of up to 4</li>
+                  <li>Brainstorm a project that addresses the prompt</li>
+                  <li>Join workshops and learn some new topics</li>
+                  <li>Start working on your project!</li>
+                </ul>
+              </div>
+
+              <div className="px-4 py-4 border-[3px] border-theme-secondary/75 rounded-xl">
+                <h3 className="font-bold font-monoone -mt-7">
+                  <span className="px-1 bg-theme-background">Day 2</span>
+                </h3>
+
+                <p className="text-sm font-thin italic mt-1">
+                  Sunday 3/26, 10AM-6PM @ [Venue TBA]
+                  {/* Sunday 3/26, 10AM-6PM @ Montgomery College Takoma Park/Silver Spring Campus */}
+                </p>
+
+                <ul className="pl-2 list-disc list-inside text-sm mt-2">
+                  <li>Meet up with your team and submit your project</li>
+                  <li>Showcase your work at the project expo</li>
+                  <li>Join a hardware workshop and a tech escape room activity</li>
+                  <li>Win prizes and get swag!</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-medium">
+              Competition
+            </h2>
+
+            <p className="font-thin mt-2">
+              You can form teams of up to 4 people or work by yourself.
+              Each team will create a project — a website, game, app, or anything else — that addresses the prompt that will be revealed at the beginning of the event.
+              On day 2, you&apos;ll have the opportunity to showcase your project at the project expo, and win awesome, custom prizes and swag for it!
+            </p>
+
+            <div className="px-4 py-2 border-[3px] border-fuchsia-200/75 rounded-xl mt-8">
+              <h3 className="font-medium text-sm font-monoone -mt-5">
+                <span className="px-1 bg-theme-background">Prizes 🏆</span>
+              </h3>
+
+              <div className="flex flex-wrap items-center gap-6 mt-2">
+                <img src="/assets/prizes/gamingheadphones.png" className="h-12"/>
+                <img src="/assets/prizes/bluetoothspeaker.png" className="h-12"/>
+                <img src="/assets/prizes/echodot.png" className="h-12"/>
+                <img src="/assets/prizes/airtags.png" className="h-12"/>
+                <img src="/assets/prizes/wirelessearbuds.png" className="h-12"/>
+                <img src="/assets/prizes/gamingmouse.png" className="h-12"/>
+                <img src="/assets/prizes/bluesnowball.png" className="h-12"/>
+                <img src="/assets/prizes/wireartkit.png" className="h-12"/>
+              </div>
+
+              <p className="text-sm text-right font-thin italic mt-1">
+                ... and more!!
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-medium">
+              Workshops + activities
+            </h2>
+
+            <p className="font-thin mt-2">
+              We&apos;ll run plenty of hardware and software workshops as well as fun activities throughout the 2-day event!
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+              <div className="px-4 py-4 border-[3px] border-blue-200/75 rounded-xl">
+                <h3 className="text-sm font-bold font-monoone -mt-7">
+                  <span className="px-1 bg-theme-background">Software</span>
+                </h3>
+
+                <p className="text-sm font-thin mt-1">
+                  <span className="italic">Day 1</span> — Learn new languages and tools that you can use to develop your project!
+                </p>
+
+                <ul className="pl-2 list-disc list-inside text-sm mt-2">
+                  <li>🌐 Web development with HTML/CSS</li>
+                  <li>🐍🎮 Python + Pygame</li>
+                  <li>🛠️ Advanced web frameworks</li>
+                </ul>
+
+                <p className="text-sm font-thin mt-1">
+                  and more!
+                </p>
+              </div>
+
+              <div className="relative row-span-2 px-4 py-4 border-[3px] border-blue-200/75 rounded-xl">
+                <h3 className="text-sm font-bold font-monoone -mt-7">
+                  <span className="px-1 bg-theme-background">Hardware</span>
+                </h3>
+
+                <p className="text-sm font-thin mt-1">
+                  <span className="italic">Day 2</span> — Make code come to life with Raspberry Pi Picos
+                </p>
+
+                <ul className="pl-2 list-disc list-inside text-sm mt-2">
+                  <li>
+                    Make gadgets and control objects in real life with Python and a microcontroller
+                  </li>
+                  <li>
+                    You&apos;ll even get to keep and take home some hardware!
+                  </li>
+                </ul>
+
+                <img src="/assets/hardware_graphic.png" className="absolute w-1/3 bottom-0 right-4"/>
+              </div>
+
+              <div className="px-4 py-4 border-[3px] border-blue-200/75 rounded-xl">
+                <h3 className="text-sm font-bold font-monoone -mt-7">
+                  <span className="px-1 bg-theme-background">Tech escape room</span>
+                </h3>
+
+                <p className="text-sm font-thin mt-1">
+                  <span className="italic">Day 2</span> — Team up and use your combined tech knowledge and skills to escape!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="-mt-24 md:w-72">
           <div className="pt-24 sticky top-0">
-            <div className="aspect-video bg-theme-surface/0 rounded-xl flex items-center justify-center bg-[url(/assets/steeple_banner_outline.png)] bg-cover bg-center saturate-50 overflow-hidden">
-              <p className="text-7xl font-glitch">6</p>
-              {/* <p className="text-7xl font-vinyl">6</p> */}
+            <div className="px-4 py-2.5 flex-1 border-2 border-theme-secondary/50 rounded-lg">
+              <p className="text-theme-secondary font-medium">
+                Event updates [2.12.2023]
+              </p>
+              <p className="text-sm text-theme-secondary font-thin leading-4 mt-0.5">
+                We apologize for the confusion in the past few weeks. Our dates have changed to March 25-26, 2023, and registration will re-open soon. See updated event details on the left.
+              </p>
+              <p className="text-sm text-theme-secondary font-thin leading-4 mt-3">
+                <span className="font-bold">Note:</span> If you&apos;ve registered for the event before our date changes, you will have to re-register.
+              </p>
             </div>
 
-            {/* <p className="text-sm font-thin mt-8">
+            <p className="text-sm font-thin mt-6">
+              Registration will re-open soon.
+            </p>
+
+            {/* <p className="text-sm font-thin mt-6">
               Spots are limited, register now!
             </p> */}
 
-            <p className="text-sm font-thin mt-8">
-              Registration will be back soon. See <u>event updates</u> above for more info.
-            </p>
-
-            {/* <a href="https://form.typeform.com/to/KAC7oi4w" target="_blank" rel="noreferrer noopener">
+            {/* <a href="https://form.typeform.com/to/bxlqbYuD" target="_blank" rel="noreferrer noopener">
               <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg mt-2">
-                Register
+                Register (~2 mins)
               </button>
             </a> */}
 
@@ -125,7 +276,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-4">
+      <section className="mt-16">
         <h2 className="text-2xl font-medium">
           FAQs
         </h2>
@@ -148,45 +299,17 @@ export default function Home() {
           </div>
 
           <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
-            <h3 className="text-lg leading-6">Am I elligible to participate?</h3>
-            <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              If 18 and under, and a high school student, yes!! If you&apos;re younger, shoot us an email at <a href="mailto:team@blairhacks.com" className="underline underline-offset-1">team@blairhacks.com</a>.
-            </p>
-          </div>
-
-          <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
-            <h3 className="text-lg leading-6">Does it cost anything?</h3>
-            <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              Nope! Everything is free. We&apos;ll provide meals, snacks, and beverages on-site, as well as swag, prizes, and fun activities.
-            </p>
-          </div>
-
-          <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
-            <h3 className="text-lg leading-6">What do I need to bring?</h3>
-            <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              Bring your laptop, chargers, toiletries, sleeping bags/pillows/blankets, and an open mind!
-              Also, you can optionally bring some hardware or other materials for your project.
-            </p>
-          </div>
-
-          <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
-            <h3 className="text-lg leading-6">What are the sleeping arrangements?</h3>
-            <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              There will be designated gender-separated rooms for sleeping with over-night supervision. Make sure to bring something to sleep on! (sleeping bag, pillows, blankets, etc.)
-            </p>
-          </div>
-
-          <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
-            <h3 className="text-lg leading-6">I&apos;m new to coding. Can I join?</h3>
-            <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              Yes!! The focus of BH6 is to learn new things and have fun. We&apos;ll have mentors and workshops covering a bunch of fascinating topics to help you get started.
-            </p>
-          </div>
-
-          <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
             <h3 className="text-lg leading-6">When and where will BH6 happen?</h3>
             <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-              February 17th-18th, 2023 at Montgomery Blair High School. We&apos;ll send out more details as the event gets closer!
+            {/* Day 1 will happen virtually though Discord and Zoom on March 25th. Day 2 will be in-person at Montgomery College Silver Spring/Takoma Park Campus on March 26th. */}
+            Day 1 will happen virtually though Discord and Zoom on March 25th. Day 2 will be in-person at [Venue TBA] on March 26th.
+            </p>
+          </div>
+
+          <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
+            <h3 className="text-lg leading-6">Will meals be provided?</h3>
+            <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
+              Yes! On day 2, we&apos;ll provide meals, snacks, and beverages on-site, as well as swag, prizes, and fun activities.
             </p>
           </div>
 
@@ -218,21 +341,21 @@ export default function Home() {
             />
           </a>
 
+          <a href="https://www.mindpointgroup.com/" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/mindpoint.svg"
+              alt="Mindpoint Group"
+              width={200}
+              height={200}
+            />
+          </a>
+
           <a href="https://www.subway.com" target="_blank" rel="noreferrer noopener">
             <Image
               src="/assets/sponsors/subway.svg"
               alt="Subway"
               width={200}
               height={100}
-            />
-          </a>
-
-          <a href="https://lionsolutions.com/" target="_blank" rel="noreferrer noopener">
-            <Image
-              src="/assets/sponsors/lion.png"
-              alt="Lion Solutions"
-              width={150}
-              height={150}
             />
           </a>
 
@@ -286,8 +409,17 @@ export default function Home() {
             <Image
               src="/assets/sponsors/wolfram.png"
               alt="Wolfram"
-              width={150}
-              height={150}
+              width={120}
+              height={120}
+            />
+          </a>
+          
+          <a href="https://try.digitalocean.com/developer-cloud" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/digitalocean.png"
+              alt="DigitalOcean"
+              width={120}
+              height={120}
             />
           </a>
         </div>
