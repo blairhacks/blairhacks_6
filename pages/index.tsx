@@ -359,6 +359,15 @@ export default function Home() {
             />
           </a>
 
+          <a href="https://lionsolutions.com/" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/lion.png"
+              alt="Lion Solutions"
+              width={150}
+              height={150}
+            />
+          </a>
+
           <a href="https://www.stickergiant.com" target="_blank" rel="noreferrer noopener">
             <Image
               src="/assets/sponsors/stickergiant.png"
