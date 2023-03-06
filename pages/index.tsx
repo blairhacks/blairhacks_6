@@ -29,19 +29,9 @@ export default function Home() {
             BlairHacks_6
           </h1>
           <p className="pl-[1px] text-lg font-thin">
-            {/* March 25-26, 2023 <span className="text-theme-secondary font-medium underline underline-offset-1">@ Montgomery College: Silver Spring/Takoma Park</span> */}
-            March 25-26, 2023 <span className="text-theme-secondary font-medium underline-offset-1">@ [Venue TBA]</span>
+            March 25-26, 2023 <span className="text-theme-secondary font-medium underline underline-offset-1">@ Virtual + Montgomery College Rockville Campus</span>
           </p>
         </div>
-        {/* <div className="px-4 py-2.5 flex-1 border-2 border-theme-secondary/50 rounded-lg">
-          <p className="text-theme-secondary font-medium">
-            Event updates [1.22.2023]
-          </p>
-          <p className="text-sm text-theme-secondary font-thin leading-4 mt-0.5">
-            Our dates have changed to February 18-19, 2023 at 10AM-6PM (Sat) and 10AM-6PM (Sun).
-            This will not be an overnight event. Registration is temporarily disabled — check back soon!
-          </p>
-        </div> */}
       </section>
 
       <section className="flex flex-col-reverse md:flex-row gap-16 mt-2">
@@ -89,8 +79,7 @@ export default function Home() {
                 </h3>
 
                 <p className="text-sm font-thin italic mt-1">
-                  Sunday 3/26, 10AM-6PM @ [Venue TBA]
-                  {/* Sunday 3/26, 10AM-6PM @ Montgomery College Takoma Park/Silver Spring Campus */}
+                  Sunday 3/26, 10AM-6PM @ Montgomery College Rockville Campus
                 </p>
 
                 <ul className="pl-2 list-disc list-inside text-sm mt-2">
@@ -203,33 +192,25 @@ export default function Home() {
           <div className="pt-24 sticky top-0">
             <div className="px-4 py-2.5 flex-1 border-2 border-theme-secondary/50 rounded-lg">
               <p className="text-theme-secondary font-medium">
-                Event updates [2.12.2023]
+                Event updates [3.06.2023]
               </p>
               <p className="text-sm text-theme-secondary font-thin leading-4 mt-0.5">
-                We apologize for the confusion in the past few weeks. Our dates have changed to March 25-26, 2023, and registration will re-open soon. See updated event details on the left.
+                Registration is now open! Detailed info and address will be sent to registrants a week before the event.
               </p>
               <p className="text-sm text-theme-secondary font-thin leading-4 mt-3">
-                <span className="font-bold">Note:</span> If you&apos;ve registered for the event before our date changes, you will have to re-register.
+                <span className="font-bold">Note:</span> If you&apos;ve previously registered for our old dates, you will have to re-register.
               </p>
             </div>
 
             <p className="text-sm font-thin mt-6">
-              Registration will re-open soon.
+              Spots are limited, register now!
             </p>
 
-            {/* <p className="text-sm font-thin mt-6">
-              Spots are limited, register now!
-            </p> */}
-
-            {/* <a href="https://form.typeform.com/to/bxlqbYuD" target="_blank" rel="noreferrer noopener">
+            <a href="https://form.typeform.com/to/bxlqbYuD" target="_blank" rel="noreferrer noopener">
               <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg mt-2">
                 Register (~2 mins)
               </button>
-            </a> */}
-
-            <button className="w-full px-4 py-3 bg-theme-onSurface text-theme-surface text-sm uppercase font-semibold rounded-lg opacity-50 cursor-not-allowed mt-2" disabled>
-              Register
-            </button>
+            </a>
 
             {/* <button
               className="w-full px-4 py-2.5 border flex items-center justify-center gap-2 border-theme-onSurface hover:bg-theme-onSurface/5 text-sm font-semibold uppercase rounded-lg transition ease-in-out duration-400 mt-2.5"
@@ -301,8 +282,7 @@ export default function Home() {
           <div className="px-5 py-4 bg-theme-surface text-theme-onSurface rounded-xl">
             <h3 className="text-lg leading-6">When and where will BH6 happen?</h3>
             <p className="text-theme-onSurface/75 text-sm font-thin mt-1.5">
-            {/* Day 1 will happen virtually though Discord and Zoom on March 25th. Day 2 will be in-person at Montgomery College Silver Spring/Takoma Park Campus on March 26th. */}
-            Day 1 will happen virtually though Discord and Zoom on March 25th. Day 2 will be in-person at [Venue TBA] on March 26th.
+            Day 1 will happen virtually though Discord and Zoom on March 25th. Day 2 will be in-person at Montgomery College Rockville Campus on March 26th.
             </p>
           </div>
 
@@ -356,6 +336,15 @@ export default function Home() {
               alt="Subway"
               width={200}
               height={100}
+            />
+          </a>
+
+          <a href="https://www.postman.com/student-program/student-expert/?utm_campaign=UOE&utm_medium=referral&utm_source=external&utm_term=sponsorship&utm_content=Blair-Hacks-25032023" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/postman.svg"
+              alt="Postman"
+              width={125}
+              height={125}
             />
           </a>
 
