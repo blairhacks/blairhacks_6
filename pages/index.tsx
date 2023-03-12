@@ -338,15 +338,6 @@ export default function Home() {
               height={100}
             />
           </a>
-
-          <a href="https://www.postman.com/student-program/student-expert/?utm_campaign=UOE&utm_medium=referral&utm_source=external&utm_term=sponsorship&utm_content=Blair-Hacks-25032023" target="_blank" rel="noreferrer noopener">
-            <Image
-              src="/assets/sponsors/postman.svg"
-              alt="Postman"
-              width={125}
-              height={125}
-            />
-          </a>
           
           <a href="https://lionsolutions.com/" target="_blank" rel="noreferrer noopener">
             <Image
@@ -354,6 +345,15 @@ export default function Home() {
               alt="Lion Solutions"
               width={150}
               height={150}
+            />
+          </a>
+
+          <a href="https://www.postman.com/student-program/student-expert/?utm_campaign=UOE&utm_medium=referral&utm_source=external&utm_term=sponsorship&utm_content=Blair-Hacks-25032023" target="_blank" rel="noreferrer noopener">
+            <Image
+              src="/assets/sponsors/postman.svg"
+              alt="Postman"
+              width={125}
+              height={125}
             />
           </a>
 
